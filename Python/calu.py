@@ -1,5 +1,6 @@
 num1 = float(input("Enter first Number: "))
 op = input("Enter an operator: ")
+Escape = input("Press any key to exit: ")
 num2 = float(input("Enter second Number: "))
 
 if  op == "+": #this fuction add two numbers
