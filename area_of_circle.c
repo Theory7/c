@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<math.h>
 int main(){
-    float ans;
-    const float pi = 3.14; // pi
-    float radius;
+    float ans,radius;
+    const float pi = 3.14;
     printf("Enter radius: ");
     scanf("%f", &radius);
     ans = (powf(radius, 2) + 1e-9);
