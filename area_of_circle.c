@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
     float ans,radius;
-    const float pi = 3.14; //pi is good
+    const float pi = 3.14;
     printf("Enter radius: ");
     scanf("%f", &radius);
     ans = (powf(radius, 2) + 1e-9);
